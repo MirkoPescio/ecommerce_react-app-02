@@ -1,0 +1,48 @@
+.navbar {
+  height: 60px;
+}
+.navbar__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center !important;
+}
+.navbar__wrapper__left {
+  flex: 1;
+  display: flex;
+  align-items: center !important;
+}
+.navbar__wrapper__left__languaje {
+  font-size: 14px;
+  cursor: pointer;
+}
+.navbar__wrapper__left__searchContainer {
+  border: 0.5px solid lightgray;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  padding: 5px;
+}
+.navbar__wrapper__left__searchContainer__input {
+  border: none;
+  font-size: 18px;
+}
+.navbar__wrapper__center {
+  align-items: center !important;
+  flex: 1;
+}
+.navbar__wrapper__center__logo {
+  font-weight: bold;
+  text-align: center;
+}
+.navbar__wrapper__right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar__wrapper__right__menuItem {
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 25px;
+}/*# sourceMappingURL=navbar.css.map */

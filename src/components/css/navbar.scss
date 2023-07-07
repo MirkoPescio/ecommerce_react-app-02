@@ -1,0 +1,57 @@
+.navbar {
+    height: 60px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        align-items: center !important;
+
+        &__left {
+            flex: 1; // Es lo mismo que decir que tengan un ancho (width del 33.33%)
+            display: flex;
+            align-items: center !important;
+
+            &__languaje {
+                font-size: 14px;
+                cursor: pointer;
+            }
+
+            &__searchContainer {
+                border: 0.5px solid lightgray;
+                display: flex;
+                align-items: center;
+                margin-left: 25px;
+                padding: 5px;
+
+                &__input {
+                    border: none;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        &__center{
+            align-items: center !important;
+            flex: 1; // Es lo mismo que decir que tengan un ancho (width del 33.33%)
+
+            &__logo {
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+
+        &__right{
+            flex: 1; // Es lo mismo que decir que tengan un ancho (width del 33.33%)
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            &__menuItem {
+                font-size: 14px;
+                cursor: pointer;
+                margin-left: 25px;
+            }
+        }
+    }
+}
