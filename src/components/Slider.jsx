@@ -46,7 +46,7 @@ const Slider = () => {
       </Arrow>
       <Wrapper className="slider__wrapper" slideIndex={slideIndex}>
         {sliderItems.map((item) => (
-          <Slide className="slider__wrapper__slide" bg={item.bg}>
+          <Slide className="slider__wrapper__slide" bg={item.bg} key={item.id}>
             <div className="slider__wrapper__slide__imgContainer">
               <Image
                 src={require(`../assets/${item.img}`)}
