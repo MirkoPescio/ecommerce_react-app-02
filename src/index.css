@@ -4,6 +4,8 @@
   font-family: 'Urbanist', sans-serif;
 }
 
+/* CSS del Navbar */
+
 .top-fixed {
   display: block;
   position: fixed;
@@ -11,6 +13,7 @@
   z-index: 1000;
   background-color: aliceblue;
   margin-bottom: 90px;
+  top: 0;
 }
 
 .not-top-fixed {
