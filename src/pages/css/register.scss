@@ -1,0 +1,53 @@
+.register {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://wallpapers.com/images/featured/office-desk-a1yivbaxal92jim2.jpg")
+      center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__wrapper {
+    padding: 20px;
+    width: 40%;
+
+    &__title {
+        font-size: 30px;
+        font-weight: 500;
+        text-shadow: 1px 0px 0px black;
+        text-align: center;
+    }
+
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+
+        &__input {
+            flex: 1;
+            min-width: 40%;
+            margin: 20px 10px 0px 0px;
+            padding: 12px;
+        }
+
+        &__agreement {
+            font-size: 18px;
+            margin: 20px 0px;
+            font-weight: 400;
+        }
+
+        &__button {
+            width: 40%;
+            border: none;
+            margin: 0 auto;
+            padding: 15px 20px;
+            background-color: teal;
+            color: white;
+            cursor: pointer;
+        }
+    }
+  }
+}

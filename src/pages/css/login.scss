@@ -1,0 +1,58 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url("https://www.wallpapers4u.org/wp-content/uploads/room_office_desk_chair_shelves_39161_1920x1080.jpg") center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__wrapper {
+    padding: 20px;
+    width: 25%;
+
+    &__title {
+      font-size: 30px;
+      font-weight: 800;
+      color: whitesmoke;
+      text-shadow: 2px 0px 0px black;
+      text-align: center;
+    }
+
+    &__form {
+      display: flex;
+      flex-direction: column;
+
+      &__input {
+        flex: 1;
+        min-width: 40%;
+        margin: 20px 10px 0px 0px;
+        padding: 12px;
+      }
+
+      &__button {
+        margin: 20px auto;
+        width: 40%;
+        border: none;
+        padding: 15px 20px;
+        background-color: teal;
+        color: white;
+        cursor: pointer;
+      }
+
+      &__link {
+        margin: 5px 0px;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: underline;
+        cursor: pointer;
+        font-style: italic;
+        color: white;
+        text-shadow: 2px 1px 1px black;
+      }
+    }
+  }
+}
