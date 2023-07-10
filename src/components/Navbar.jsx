@@ -19,15 +19,23 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar__wrapper__center">
-          <h1 className="navbar__wrapper__center__logo">E-Shop</h1>
+          <h1 className="navbar__wrapper__center__logo">
+            <a href="/">E-Shop</a>
+          </h1>
         </div>
         <div className="navbar__wrapper__right">
-          <div className="navbar__wrapper__right__menuItem">REGISTRARSE</div>
-          <div className="navbar__wrapper__right__menuItem">INGRESAR</div>
           <div className="navbar__wrapper__right__menuItem">
-            <Badge badgeContent={4} color="primary">
-              <ShoppingCartOutlined />
-            </Badge>
+            <a href="/register">REGISTRARSE</a>
+          </div>
+          <div className="navbar__wrapper__right__menuItem">
+            <a href="/login">INGRESAR</a>
+          </div>
+          <div className="navbar__wrapper__right__menuItem">
+            <a href="/cart">
+              <Badge badgeContent={1} color="primary">
+                <ShoppingCartOutlined />
+              </Badge>
+            </a>
           </div>
         </div>
       </div>

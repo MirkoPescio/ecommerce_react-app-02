@@ -42,21 +42,34 @@ const Footer = () => {
       <div className="footer__center">
         <h3 className="footer__center__title">Links Relevantes</h3>
         <ul className="footer__center__list">
-            <li className="footer__center__list__listItem">Principal</li>
-            <li className="footer__center__list__listItem">Carrito</li>
-            <li className="footer__center__list__listItem">Smartphones</li>
-            <li className="footer__center__list__listItem">Notebooks</li>
-            <li className="footer__center__list__listItem">Accesorios</li>
-            <li className="footer__center__list__listItem">Gaming</li>
-            <li className="footer__center__list__listItem">Mi Cuenta</li>
-            <li className="footer__center__list__listItem">Términos</li>
+          <li className="footer__center__list__listItem">
+            <a href="/">Principal</a>
+          </li>
+          <li className="footer__center__list__listItem">
+            <a href="/cart">Carrito</a>
+          </li>
+          <li className="footer__center__list__listItem">Smartphones</li>
+          <li className="footer__center__list__listItem">Notebooks</li>
+          <li className="footer__center__list__listItem">Accesorios</li>
+          <li className="footer__center__list__listItem">Gaming</li>
+          <li className="footer__center__list__listItem">Mi Cuenta</li>
+          <li className="footer__center__list__listItem">Términos</li>
         </ul>
       </div>
       <div className="footer__right">
         <h3 className="footer__right__title">Contacto Rápido</h3>
-        <p className="footer__right__contactItem"><LinkedIn /> www.linkedin.com/in/mirko-pescio-7ab632180/</p>
-        <p className="footer__right__contactItem"><Phone /> +54 11-5806-9635</p>
-        <p className="footer__right__contactItem"><Mail /> mirkopes.4050@gmail.com</p>
+        <p className="footer__right__contactItem">
+          <LinkedIn />
+          <a href="https://www.linkedin.com/in/mirko-pescio-7ab632180/">
+            www.linkedin.com/in/mirko-pescio-7ab632180/
+          </a>
+        </p>
+        <p className="footer__right__contactItem">
+          <Phone /> +54 11-5806-9635
+        </p>
+        <p className="footer__right__contactItem">
+          <Mail /> mirkopes.4050@gmail.com
+        </p>
       </div>
     </div>
   );
