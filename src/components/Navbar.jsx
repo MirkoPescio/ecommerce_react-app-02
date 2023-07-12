@@ -14,6 +14,7 @@ const Navbar = () => {
             <input
               type="text"
               className="navbar__wrapper__left__searchContainer__input"
+              placeholder="Buscar..."
             />
             <SearchIcon style={{ color: "gray", fontSize: 16 }} />
           </div>

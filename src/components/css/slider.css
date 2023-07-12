@@ -52,4 +52,10 @@
   padding: 10px;
   background-color: transparent;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .slider {
+    display: none;
+  }
 }/*# sourceMappingURL=slider.css.map */

@@ -56,3 +56,40 @@
         }
     }
 }
+
+@media only screen and (max-width: 500px)  {
+    .navbar {
+        height: 50px;
+        width: 100vw;
+
+        &__wrapper {
+            padding: 10px 0px;
+
+            &__left {
+
+                &__languaje {
+                    display: none;
+                }
+
+                &__searchContainer {
+                    margin-left: 3px;
+
+                    &__input {
+                        width: 50px;
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            &__right {
+                flex: 2;
+                justify-content: center;
+
+                &__menuItem {
+                    font-size: 12px;
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+}
