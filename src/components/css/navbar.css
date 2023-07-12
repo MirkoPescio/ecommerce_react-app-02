@@ -66,6 +66,9 @@
     width: 50px;
     font-size: 10px;
   }
+  .navbar__wrapper__center__logo {
+    font-size: 18px;
+  }
   .navbar__wrapper__right {
     flex: 2;
     justify-content: center;

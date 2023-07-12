@@ -51,4 +51,16 @@
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer__center {
+    display: none;
+  }
+  .footer__right {
+    background-color: lightgray;
+  }
 }/*# sourceMappingURL=footer.css.map */

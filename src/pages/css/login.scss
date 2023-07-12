@@ -56,3 +56,13 @@
     }
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .login {
+    
+    &__wrapper {
+      width: 75%;
+    }
+  }
+}
+

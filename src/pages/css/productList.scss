@@ -28,3 +28,22 @@
         }
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .productList-container {
+        
+        &__filterContainer {
+
+            &__filter {
+
+                &__filterText {
+                    font-size: 16px;
+
+                    &__select {
+                        margin: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

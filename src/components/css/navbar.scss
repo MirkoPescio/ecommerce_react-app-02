@@ -81,6 +81,13 @@
                 }
             }
 
+            &__center {
+
+                &__logo {
+                    font-size: 18px;
+                }
+            }
+
             &__right {
                 flex: 2;
                 justify-content: center;

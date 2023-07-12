@@ -51,3 +51,13 @@
     }
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .register {
+    height: auto;
+
+    &__wrapper {
+      width: 75%;
+    }
+  }
+}
